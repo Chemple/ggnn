@@ -5,6 +5,7 @@ build_docker/
 build_local/
 .vscode
 data/**
+.cache/
 
 include/ggnn/alternatives
 

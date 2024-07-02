@@ -2,8 +2,9 @@ CMAKE_MINIMUM_REQUIRED( VERSION 3.3.0 )
 
 project (GGNN)
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-
+include_directories(include)
 find_package(CUDA REQUIRED)
 
 set(CUDA_ARCH_LIST Auto)
